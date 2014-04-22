@@ -85,7 +85,7 @@ int main()
                      v[t->to] = 1 ;
                   }
                }
-               if(d[c][1] + t->v < d[t->to][1] && d[c][1] + t->v > d[t->to][0])
+               if(d[c][1] + t->v < d[t->to][1])
                {
                   d[t->to][1] = d[c][1] + t->v ;
                   if(! v[t->to])
